@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.marciobueno.pdm20252app"
     },
     "web": {
       "output": "static",
@@ -49,6 +50,12 @@
       "eas": {
         "projectId": "637ff6f9-5944-409d-8587-b5e4d50cfdf0"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/637ff6f9-5944-409d-8587-b5e4d50cfdf0"
     }
   }
 }
